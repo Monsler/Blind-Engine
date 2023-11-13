@@ -1,0 +1,11 @@
+{
+  "props": [],
+  "components": {
+    "Build": {
+      "type": "script\\MacroScript",
+      "x": 16,
+      "y": 48,
+      "props": {}
+    }
+  }
+}

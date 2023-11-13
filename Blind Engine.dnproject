@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="alex" authorOS="Windows 10" createdAt="1699708274447" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Blind Engine" packageName="blindengine" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1699901252545">
+  <tree>
+    <expanded>
+    <path src=""/>
+      <path src="/.beprojects"/>
+      <path src="/src"/>
+      <path src="/src/.data"/>
+      <path src="/src/.data/img"/>
+      <path src="/src/.theme"/>
+      <path src="/src/blindengine"/>
+      <path src="/src/blindengine/forms"/>
+      <path src="/src/blindengine/modules"/>
+      <path src="/vendor"/>
+    </expanded>
+  </tree>
+  <openedFiles>
+  <file src="Blind Engine.dnproject"/>
+    <file selected="1" src="src/blindengine/forms/MainForm.php"/>
+    <file src="src/blindengine/forms/inProject.php"/>
+    <file src="src/blindengine/forms/BuildForm.php"/>
+    <file src="src/blindengine/modules/Editor.php"/>
+  </openedFiles>
+  <files/>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+  </behaviours>
+</project>

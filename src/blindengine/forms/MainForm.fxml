@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="584" prefWidth="920" styleClass="">
+  <children>
+    <FlatButton AnchorPane.leftAnchor="8" alignment="CENTER" clickColor="#333333" color="#666666" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button" layoutX="8" layoutY="72" prefHeight="40" prefWidth="184" styleClass="x-flat-button " text="Create app" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Lucida Console" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="0" prefHeight="56" prefWidth="192" styleClass="label " text="Blind Engine" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New Bold" size="26"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <ListViewEx AnchorPane.bottomAnchor="48" AnchorPane.leftAnchor="200" AnchorPane.rightAnchor="8" AnchorPane.topAnchor="72" editable="false" fixedCellSize="20" focusTraversable="true" id="listView" layoutX="200" layoutY="72" prefHeight="464" prefWidth="712" style="-fx-font-family: Lucida Console;&#10;-fx-font-size: 14.0;&#10;-fx-font-weight: normal;&#10;-fx-font-style: normal;" styleClass="list-view ">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList"/>
+      </items>
+    </ListViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-listView" visible="1"/>
+    <FlatButton AnchorPane.leftAnchor="8" alignment="CENTER" clickColor="#333333" color="#666666" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="buttonAlt" layoutX="8" layoutY="120" prefHeight="40" prefWidth="184" styleClass="x-flat-button " text="Delete selected" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Lucida Console" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-buttonAlt" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="image" layoutX="864" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-image" image=".data/img/dsc.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="imageAlt" layoutX="816" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-imageAlt" image=".data/img/yt.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="184" id="image3" layoutX="8" layoutY="392" mosaic="false" mosaicGap="0" proportional="true" stretch="true" style="-fx-border-radius: 10 10 10 10;&#10;-fx-background-radius: 5;" styleClass="" textFill="#000000" width="184">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/ico2.png" visible="1"/>
+    <FlatButton AnchorPane.leftAnchor="8" alignment="CENTER" clickColor="#333333" color="#666666" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button3" layoutX="8" layoutY="312" prefHeight="72" prefWidth="184" styleClass="x-flat-button " text="Exit" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Lucida Console" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button3" visible="1"/>
+    <FlatButton AnchorPane.leftAnchor="8" alignment="CENTER" clickColor="#333333" color="#666666" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button4" layoutX="8" layoutY="168" prefHeight="40" prefWidth="184" styleClass="x-flat-button " text="Export project" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Lucida Console" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button4" visible="1"/>
+    <FlatButton AnchorPane.leftAnchor="8" alignment="CENTER" clickColor="#333333" color="#666666" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button5" layoutX="8" layoutY="216" prefHeight="40" prefWidth="184" styleClass="x-flat-button " text="Import project" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Lucida Console" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button5" visible="1"/>
+    <FlatButton AnchorPane.leftAnchor="8" alignment="CENTER" clickColor="#333333" color="#666666" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button6" layoutX="8" layoutY="264" prefHeight="40" prefWidth="184" styleClass="x-flat-button " text="Rename selected" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Lucida Console" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button6" visible="1"/>
+    <Panel backgroundColor="#808080" borderColor="#c0c0c0" borderRadius="0" borderStyle="NONE" borderWidth="1" focusTraversable="false" id="panel" layoutX="8" layoutY="56" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="3" prefWidth="904" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <ImageViewEx AnchorPane.bottomAnchor="8" AnchorPane.rightAnchor="8" autoSize="false" centered="false" focusTraversable="false" height="32" id="image4" layoutX="880" layoutY="544" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-image4" image=".data/img/Refresh_icon.svg.png" visible="1"/>
+  </children>
+</AnchorPane>
