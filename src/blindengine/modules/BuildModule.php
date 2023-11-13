@@ -29,7 +29,7 @@ class BuildModule extends AbstractModule
                      if(str::contains($v, '.php')){
                          $r = file_get_contents($_PARENT.'/'.$v);
                          $r = str_ireplace('$project_path', 'Assets', $r);
-                         $r = $this->enc($r, 'BE');
+                         $r = $this->enc($r, '________');
                          file_put_contents($dir.'/'.$v, $r);
                      }elseif(!str::contains($v, '.php')){
                      if($v != 'config.json'){
@@ -42,7 +42,7 @@ class BuildModule extends AbstractModule
              }
              
          }
-         file_put_contents($dir.'/manifest.be', $this->enc('{"mainFile":"'.$_CONF['mainFile'].'"}', 'BE'));
+         file_put_contents($dir.'/manifest.be', $this->enc('{"mainFile":"'.$_CONF['mainFile'].'"}', '_______'));
          alert('Build finished!');
          fs::copy('res://.data/ProjectBlindRuntime.exe', $select->file);
          open($self);
